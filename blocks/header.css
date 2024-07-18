@@ -1,4 +1,4 @@
-.lead__title{
+.header__title{
   max-width: 720px;
   margin: 90px auto 32px;
   font-size: 96px;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.lead__subtitle{
+.header__subtitle{
   max-width: 720px;
   margin: 0 auto;
   font-size: 30px;
@@ -17,7 +17,7 @@
 
 }
 
-.lead__image{
+.header__image{
   max-width: 983px;
   width: 100%;
   display:block;
@@ -27,7 +27,7 @@
 
 @media screem and (max-width:1024px) {
 
-  .lead__title{
+  .header__title{
       max-width: 540px;
       font-size: 79px;
       line-height: 83px;
@@ -39,7 +39,7 @@
  @media screen and (max-width:768px){
 
 
-     .lead__title{
+     .header__title{
          max-width: 530px;
          font-size: 75px;
          line-height: 79px;
@@ -50,7 +50,7 @@
 
  @media screen and (max-width:544px) {
 
-   .lead__title {
+   .header__title {
      margin-top: 52px;
    }
 
@@ -59,7 +59,7 @@
  @media screen and (max-width:320px){
 
 
-     .lead__title{
+     .header__title{
          max-width: 288px;
          margin-top: 50px;
          margin-bottom: 16px;
@@ -67,7 +67,7 @@
          line-height: 44px;
      }
 
-     .lead__subtitle{
+     .header__subtitle{
          max-width: 288px;
          font-size: 16px;
          line-height: 20px;
@@ -75,7 +75,7 @@
 
      }
 
-     .lead__image{
+     .header__image{
          margin-top: 40px;
      }
 
