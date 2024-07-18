@@ -41,26 +41,6 @@
 
 }
 
-@media screem and (max-width:1024px) {
-
-  .lead__title{
-      max-width: 540px;
-      font-size: 79px;
-      line-height: 83px;
-  }
-
-  .intro{
-      max-width: 726px;
-
-  }
-
-  .intro__title {
-      max-width: 713px;
-      font-size: 49px;
-      line-height: 52px;
-  }
-
- }
 
  @media screen and (max-width:768px){
 
