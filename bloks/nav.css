@@ -1,0 +1,47 @@
+.nav{
+  display:flex;
+  justify-content: center;
+
+}
+
+.nav__brand{
+  display:flex;
+  margin-top: 34px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__logo{
+  max-width: 254px;
+  width: 100%;
+
+}
+
+
+@media screem and (max-width:1024px) {
+
+  .nav__brand{
+    margin-top: 32px;
+  }
+
+
+}
+
+@media screen and (max-width:768px){
+
+    .nav__brand{
+       margin-top: 30px;
+
+    }
+
+}
+
+
+@media screen and (max-width:320px){
+
+    .nav__logo{
+        max-width: 188px;
+
+    }
+
+}
