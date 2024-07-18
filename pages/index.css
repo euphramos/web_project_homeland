@@ -16,7 +16,7 @@
 .page{
     max-width: 1280px;
     margin:0 auto;
-    
+
 }
 
 .nav{
@@ -67,8 +67,7 @@
 
 .intro{
     max-width: 830px;
-    margin-top: 92px;
-    margin-left: 148px;
+    margin: 92px auto 0;
 }
 
 .intro__title{
@@ -120,11 +119,40 @@
     line-height: 16px;
 }
 
+@media screem and (max-width:1024px) {
+
+  .nav__brand{
+    margin-top: 32px;
+  }
+
+
+
+ .lead__title{
+     max-width: 540px;
+     font-size: 79px;
+     line-height: 83px;
+ }
+
+ .intro{
+     max-width: 726px;
+
+ }
+
+ .intro__title {
+     max-width: 713px;
+     font-size: 49px;
+     line-height: 52px;
+ }
+
+
+}
+
+
 @media screen and (max-width:768px){
-    
+
     .nav__brand{
        margin-top: 30px;
-       
+
     }
 
 
@@ -145,7 +173,15 @@
         line-height: 49px;
     }
 
-    
+
+}
+
+@media screen and (max-width:544px) {
+
+  .lead__title {
+    margin-top: 52px;
+  }
+
 }
 
 @media screen and (max-width:320px){
@@ -178,7 +214,7 @@
 
     .intro{
         max-width: 288px;
-        margin-top: 40px; 
+        margin-top: 40px;
     }
 
     .intro__title {
@@ -188,17 +224,17 @@
 
     .intro__subtitle{
         line-height: 30px;
-    
+
     }
 
     .footer{
         margin:92px 0;
-    
+
     }
-    
+
     .footer__copyright{
         line-height: 14px;
     }
-   
+
 
 }
