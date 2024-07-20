@@ -27,7 +27,7 @@
 
 
 
- @media screen and (max-width:768px){
+ @media screen and (max-width:1024px){
 
 
      .header__title{
@@ -36,18 +36,9 @@
          line-height: 79px;
      }
 
-
  }
 
- @media screen and (max-width:544px) {
-
-   .header__title {
-     margin-top: 52px;
-   }
-
- }
-
- @media screen and (max-width:320px){
+ @media screen and (max-width:544px){
 
 
      .header__title{
