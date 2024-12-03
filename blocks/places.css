@@ -88,7 +88,7 @@
 
 .place__button{
   text-decoration: none;
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
   display: flex;
   justify-content: center;
   align-items: center;
