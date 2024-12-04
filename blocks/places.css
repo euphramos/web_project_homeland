@@ -83,7 +83,7 @@
 
 .places__button {
   text-decoration: none;
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,7 @@
 }
 
 .places__place:hover .places__button {
-  background: linear-gradient(90deg, #004fcc 0%, #002a59 100%);
+  background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
   transform: translateY(-3px);
 }
 

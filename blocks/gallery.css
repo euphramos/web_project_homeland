@@ -3,7 +3,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap:16px;
-  margin: 118px;
+  margin: 0 auto;
 
 }
 
@@ -18,6 +18,8 @@
     grid-template-columns: repeat(2, 1fr); /* Reduz para 2 colunas */
     grid-template-rows: auto; /* Ajusta automaticamente a altura das linhas */
   }
+
+  .gallery__image
 }
 
 @media (max-width: 480px) {
