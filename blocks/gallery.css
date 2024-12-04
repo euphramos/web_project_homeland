@@ -12,23 +12,3 @@
   height: 100%;
   object-fit: cover;
 }
-
-@media (max-width: 768px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr); /* Reduz para 2 colunas */
-    grid-template-rows: auto; /* Ajusta automaticamente a altura das linhas */
-  }
-
-  .gallery__image
-}
-
-@media (max-width: 480px) {
-  .gallery {
-    grid-template-columns: 1fr; /* Reduz para 1 coluna */
-    gap: 8px; /* Reduz o espaço entre as células */
-  }
-
-  .gallery__image {
-    object-fit: cover; /* Imagens continuam adaptadas ao espaço */
-  }
-}
