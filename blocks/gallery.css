@@ -1,7 +1,7 @@
 .gallery{
   display:grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat (2, 442px);
+  grid-template-rows: (2, 442px);
   gap:16px;
   margin: 118px;
 
@@ -11,4 +11,20 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+      grid-template-columns: repeat(2, 1fr); /* Reduz para 2 colunas */
+      grid-template-rows: (2, 1104px); /* Ajusta a altura automaticamente */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+      grid-template-columns: 1fr; /* 1 coluna */
+      width: 100%; /* As imagens ocupam toda a largura das células */
+    height: 100%; /* As imagens ocupam toda a altura das células */
+    object-fit: cover; /* Garante que as imagens não sejam deformadas */
+  }
 }
