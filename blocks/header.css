@@ -27,7 +27,7 @@
 
 
 
- @media screen and (max-width:1024px){
+ @media screen and (max-width:768px){
 
 
      .header__title{
@@ -38,7 +38,7 @@
 
  }
 
- @media screen and (max-width:544px){
+ @media screen and (max-width:320px){
 
 
      .header__title{

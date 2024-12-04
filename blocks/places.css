@@ -101,6 +101,7 @@
   grid-area: button;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s, transform 0.3s;
+  margin: 0 auto;
 }
 
 .places__place:hover .places__button {
@@ -113,6 +114,11 @@
   .places__image {
     width: 100%;
     height: auto;
+  }
+
+
+  .places__button {
+    margin-top: 48px;
   }
 }
 
