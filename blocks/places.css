@@ -14,7 +14,7 @@
     "title subtitle"
     "image paragraph"
     "button paragraph"
-    "span description";
+    "span paragraph";
   column-gap: 40px;
   row-gap: 48px;
 
@@ -58,6 +58,7 @@
 .places__image {
   grid-area: image;
   max-width: 460px;
+  width: 100%;
   height: 460px;
   display: block;
   margin: 0 auto;
