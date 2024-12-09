@@ -57,7 +57,7 @@
 
 .places__image {
   grid-area: image;
-  width: 460px;
+  max-width: 460px;
   height: 460px;
   display: block;
   margin: 0 auto;
@@ -117,7 +117,7 @@
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .places__image {
     width: 100%;
     height: auto;
@@ -130,7 +130,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 544px) {
   .places__place {
     grid-template-columns: 1fr; /* Uma única coluna */
     grid-template-areas:
